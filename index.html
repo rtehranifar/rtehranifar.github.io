@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 	<div id = "r-name">
-		<h1>Monk's Cafe</h1>
-		<p>"The coffee Shop"</p>
+		<h1 class= 'text-center'>Monk's Cafe<br><small>"The coffee Shop"</small></h1>
+		
 	</div>
 	<img src="http://circuits-assets.generalassemb.ly/prod/asset/5475/toms-restaurant.jpg" alt = "Tom's Restaurant" height = "500">
 	<section id = "reservations"
@@ -48,7 +53,16 @@
 		<br>
 		<button>Submit</button>
 	</form>		
-</section>		
+</section>
+<div id = 'map'><div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 
+<script src="main.js"></script>
+
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzo2MRFLxQgjuPND6HhTZ06ihlNLP6Dd8&callback=initMap"></script>
 </body>
 </html>
